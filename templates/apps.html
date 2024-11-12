@@ -1,0 +1,17 @@
+{% extends 'base.html' %}
+
+
+{% block content %}
+{% for item in object_list %}
+ <div class="container">
+    <div class="jumbotron">
+            <h3 class="display-6">{{item.name}}</h3>
+                <p class="lead">{{item.description}}</p>
+                <p class="lead">
+                <a class="btn btn-primary btn-md btn-block" href="{{item.url}}" role="button">Learn more</a>
+            </p>
+        </div>
+    </div>
+{% endfor %}
+{% endblock %}
+

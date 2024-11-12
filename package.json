@@ -1,0 +1,11 @@
+{
+  "name": "django_notes",
+  "version": "1.0.0",
+  "description": "tools",
+  "main": "index.js",
+  "scripts": {
+    "sass": "node-sass -w scss/ -o static/css/ --recursive" 
+  },
+  "author": "",
+  "license": "MIT"
+}
